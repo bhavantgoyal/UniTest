@@ -10,7 +10,7 @@ namespace ClassLibrary1.Test
         {
             MathsHelper helper = new MathsHelper();
             int result = helper.Add(20, 10);
-            Assert.AreEqual(200, result);
+            Assert.AreEqual(30, result);
         }
     }
 }
