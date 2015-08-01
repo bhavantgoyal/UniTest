@@ -16,23 +16,23 @@ class Program
             //CalculateSumOfOdd();
             //CalculateSumOfAll();
 
-            //Thread T1 = new Thread(CalculateSumOfEven);
-            //Thread T2 = new Thread(CalculateSumOfOdd);
-            //Thread T3 = new Thread(CalculateSumOfAll);
-            //T1.Start();
-            //T2.Start();
-            //T3.Start();
-            //T1.Join();
-            //T2.Join();
-            //T3.Join();
+            Thread T1 = new Thread(CalculateSumOfEven);
+            Thread T2 = new Thread(CalculateSumOfOdd);
+            Thread T3 = new Thread(CalculateSumOfAll);
+            T1.Start();
+            T2.Start();
+            T3.Start();
+            T1.Join();
+            T2.Join();
+            T3.Join();
 
-            Task[] tasks = new Task[3]
-            {
-                Task.Factory.StartNew(() => CalculateSumOfEven()),
-                Task.Factory.StartNew(() => CalculateSumOfOdd()),
-                Task.Factory.StartNew(() => CalculateSumOfAll())
-            };
-            Task.WaitAll(tasks);
+            //Task[] tasks = new Task[3]
+            //{
+            //    Task.Factory.StartNew(() => CalculateSumOfEven()),
+            //    Task.Factory.StartNew(() => CalculateSumOfOdd()),
+            //    Task.Factory.StartNew(() => CalculateSumOfAll())
+            //};
+            //Task.WaitAll(tasks);
 
             watch.Stop();
             Console.WriteLine("Time taken = {0}", watch.ElapsedMilliseconds);
