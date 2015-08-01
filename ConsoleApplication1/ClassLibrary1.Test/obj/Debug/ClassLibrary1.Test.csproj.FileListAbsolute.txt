@@ -1,0 +1,9 @@
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\bin\Debug\ClassLibrary1.Test.dll
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\bin\Debug\ClassLibrary1.Test.pdb
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\bin\Debug\ConsoleApplication1.exe
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\bin\Debug\nunit.framework.dll
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\bin\Debug\ConsoleApplication1.pdb
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\bin\Debug\nunit.framework.xml
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\obj\Debug\ClassLibrary1.Test.csprojResolveAssemblyReference.cache
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\obj\Debug\ClassLibrary1.Test.dll
+E:\work\UniTest\ConsoleApplication1\ClassLibrary1.Test\obj\Debug\ClassLibrary1.Test.pdb
