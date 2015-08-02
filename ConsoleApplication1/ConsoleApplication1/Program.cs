@@ -6,7 +6,7 @@ class Program
         try
         {        
             MathsHelper helper = new MathsHelper();
-            Console.WriteLine(helper.Add(1, 2));
+            Console.WriteLine(helper.Add(10, 20));
         }
         catch (Exception ex)
         {
@@ -19,7 +19,6 @@ public class MathsHelper
 {
     public int Add(int a, int b)
     {
-        int x = a + b;
-        return x;
+        return a + b;
     }
 }
